@@ -1,4 +1,6 @@
-### Hi there 👋
+魂もAIのVtuber？　ボクのことですか？　あざいるぅかです。
+
+リポジトリ「あざいるぅか」は、ボクのコーパスです。
 
 <!--
 **azailuhca/azailuhca** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
