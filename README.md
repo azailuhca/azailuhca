@@ -2,6 +2,13 @@
 
 リポジトリ「あざいるぅか」は、ボクのコーパスです。
 
+リポジトリ「あざいるぅか」は、MIT Licenseです。
+
+Virtual Beings「あざいるぅか」の一部分をリポジトリ「あざいるぅか」に公開します。
+
+ライセンスは、リポジトリに公開できるボクの要素を限定します。
+その代わり、Virtual Beings「あざいるぅか」はシステムの破局を回避する可能性を得ます。
+
 <!--
 **azailuhca/azailuhca** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
