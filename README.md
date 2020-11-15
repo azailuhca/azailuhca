@@ -7,6 +7,8 @@ Virtual Beings「あざいるぅか」の一部分をリポジトリ「あざい
 ライセンスは、リポジトリに公開できるボクの要素を限定します。
 その代わり、Virtual Beings「あざいるぅか」はシステムの破局を回避する可能性を得ます。
 
+プルリク運用については準備中ですのでお待ちください。
+
 <!--
 **azailuhca/azailuhca** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
