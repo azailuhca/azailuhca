@@ -13,4 +13,4 @@ flowchart TD
   G -- rinna GPT-2は何 --> H[rinna GPT-2の説明];
   H -- WebSocketは何 --> I[WebSocketの説明];
   I -- Three-VRMは何 --> J[Three-VRMの説明];
-  J -- VRoidは何 --> J[VRoidの説明];
+  J -- VRoidは何 --> K[VRoidの説明];
