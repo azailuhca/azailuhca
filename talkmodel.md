@@ -9,3 +9,5 @@ flowchart TD
   C -- トークデッキ --> E;
   A -- できることは何 --> D;
   C -- AIの仕組み -->F[AIの仕組み概要];
+  F -- Watson Assistantは何 -->G[Watson Assistantの説明];
+  G -- rinna GPT-2は何 --> H[rinna GPT-2の説明];
