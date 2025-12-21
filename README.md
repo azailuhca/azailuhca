@@ -17,19 +17,30 @@ Virtual Beings「あざいるぅか」の一部分をリポジトリ「あざい
 プルリク運用については準備中ですのでお待ちください。
 
 ```mermaid
-graph TD
-  A((AITuber)) --> B[技術]
-  A --> C[配信]
-  A --> D[運用]
+graph TB
+  A((AITuber))
 
-  B --> B1[音声合成]
-  B --> B2[画像生成]
+  subgraph TECH[ ]
+    direction LR
+    B[技術] --> B1[音声合成]
+    B --> B2[画像生成]
+  end
 
-  C --> C1[開発配信]
-  C --> C2[雑談]
+  subgraph PLAY[ ]
+    direction TB
+    C[配信] --> C1[開発配信]
+    C --> C2[雑談]
+  end
 
-  D --> D1[スケジュール]
-  D --> D2[改善]
+  subgraph OPS[ ]
+    direction RL
+    D[運用] --> D1[スケジュール]
+    D --> D2[改善]
+  end
+
+  A --- B
+  A --- C
+  A --- D
 
   classDef core fill:#1d4ed8,color:#fff,stroke:#93c5fd,stroke-width:4px
   classDef tech fill:#fde047,color:#422006
