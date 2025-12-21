@@ -18,16 +18,24 @@ Virtual Beings「あざいるぅか」の一部分をリポジトリ「あざい
 
 ```mermaid
 mindmap
-  root((AITuber))
-    技術
-      音声合成
-      画像生成
-    配信
-      雑談
-      開発配信
-    運用
-      スケジュール
-      改善
+  root((AITuber)):::core
+
+    技術:::tech
+      音声合成:::tech
+      画像生成:::tech
+
+    配信:::play
+      開発配信:::play
+      雑談:::play
+
+    運用:::manage
+      スケジュール:::manage
+      改善:::manage
+
+classDef core fill:#1d4ed8,color:#fff,stroke:#93c5fd,stroke-width:4px
+classDef tech fill:#fde047,color:#422006,stroke:#facc15,stroke-width:3px
+classDef play fill:#bbf7d0,color:#064e3b,stroke:#4ade80,stroke-width:3px
+classDef manage fill:#e9d5ff,color:#3b0764,stroke:#c084fc,stroke-width:3px
 ```
 
 <!--
