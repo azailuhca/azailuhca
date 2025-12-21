@@ -16,6 +16,19 @@ Virtual Beings「あざいるぅか」の一部分をリポジトリ「あざい
 
 プルリク運用については準備中ですのでお待ちください。
 
+mindmap
+  root((AITuber))
+    技術
+      音声合成
+      画像生成
+    配信
+      雑談
+      開発配信
+    運用
+      スケジュール
+      改善
+
+
 <!--
 **azailuhca/azailuhca** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
