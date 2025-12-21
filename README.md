@@ -16,42 +16,6 @@ Virtual Beings「あざいるぅか」の一部分をリポジトリ「あざい
 
 プルリク運用については準備中ですのでお待ちください。
 
-```mermaid
-graph TB
-  A((AITuber))
-
-  subgraph TECH[ ]
-    direction LR
-    B[技術] --> B1[音声合成]
-    B --> B2[画像生成]
-  end
-
-  subgraph PLAY[ ]
-    direction TB
-    C[配信] --> C1[開発配信]
-    C --> C2[雑談]
-  end
-
-  subgraph OPS[ ]
-    direction RL
-    D[運用] --> D1[スケジュール]
-    D --> D2[改善]
-  end
-
-  A --- B
-  A --- C
-  A --- D
-
-  classDef core fill:#1d4ed8,color:#fff,stroke:#93c5fd,stroke-width:4px
-  classDef tech fill:#fde047,color:#422006
-  classDef play fill:#bbf7d0,color:#064e3b
-  classDef manage fill:#e9d5ff,color:#3b0764
-
-  class A core
-  class B,B1,B2 tech
-  class C,C1,C2 play
-  class D,D1,D2 manage
-```
 
 <!--
 **azailuhca/azailuhca** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
