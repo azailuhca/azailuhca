@@ -17,25 +17,29 @@ Virtual Beings「あざいるぅか」の一部分をリポジトリ「あざい
 プルリク運用については準備中ですのでお待ちください。
 
 ```mermaid
-mindmap
-  root((AITuber)):::core
+graph TD
+  A((AITuber)) --> B[技術]
+  A --> C[配信]
+  A --> D[運用]
 
-    技術:::tech
-      音声合成:::tech
-      画像生成:::tech
+  B --> B1[音声合成]
+  B --> B2[画像生成]
 
-    配信:::play
-      開発配信:::play
-      雑談:::play
+  C --> C1[開発配信]
+  C --> C2[雑談]
 
-    運用:::manage
-      スケジュール:::manage
-      改善:::manage
+  D --> D1[スケジュール]
+  D --> D2[改善]
 
-classDef core fill:#1d4ed8,color:#fff,stroke:#93c5fd,stroke-width:4px
-classDef tech fill:#fde047,color:#422006,stroke:#facc15,stroke-width:3px
-classDef play fill:#bbf7d0,color:#064e3b,stroke:#4ade80,stroke-width:3px
-classDef manage fill:#e9d5ff,color:#3b0764,stroke:#c084fc,stroke-width:3px
+  classDef core fill:#1d4ed8,color:#fff,stroke:#93c5fd,stroke-width:4px
+  classDef tech fill:#fde047,color:#422006
+  classDef play fill:#bbf7d0,color:#064e3b
+  classDef manage fill:#e9d5ff,color:#3b0764
+
+  class A core
+  class B,B1,B2 tech
+  class C,C1,C2 play
+  class D,D1,D2 manage
 ```
 
 <!--
