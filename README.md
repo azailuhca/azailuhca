@@ -16,6 +16,7 @@ Virtual Beings「あざいるぅか」の一部分をリポジトリ「あざい
 
 プルリク運用については準備中ですのでお待ちください。
 
+```mermaid
 mindmap
   root((AITuber))
     技術
@@ -27,7 +28,7 @@ mindmap
     運用
       スケジュール
       改善
-
+```
 
 <!--
 **azailuhca/azailuhca** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
