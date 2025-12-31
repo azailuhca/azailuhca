@@ -16,9 +16,6 @@ Virtual Beings「あざいるぅか」の一部分をリポジトリ「あざい
 
 プルリク運用については準備中ですのでお待ちください。
 
-```markdown
-# データフロー（Mermaid）
-
 ```mermaid
 sequenceDiagram
     autonumber
@@ -63,7 +60,6 @@ sequenceDiagram
 
     %% 配信継続
     OBS-->>YT: ○ 映像・音声配信
-```
 ```
 
 <!--
